@@ -1,0 +1,19 @@
+#animation{
+    animation-name: fadein;
+    animation-duration: 1.5s;
+    animation-timing-function: ease-out;
+    animation-fill-mode: forwards;
+
+}
+@keyframes fadein{
+    /* 0%はじまった状態を指す*/
+    0%{
+        opacity: 0;
+        transform: translateY(0);
+    }
+    /* 100%はアニメーションが終わる時の状態を指す*/
+    100%{
+        opacity: 1;
+        transform: translateY(20);
+    }
+}
